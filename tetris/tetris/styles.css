@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+  background: #fff;
+}
+
+.howToPlay {
+  display: flex;
+  justify-content: center;
+}
+
+.howToPlay > p {
+  margin: 0 20px;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+}
+
+.level {
+  margin: 0 20px;
+}
+
+.lines {
+  margin: 0 20px;
+}
+
+.score {
+  margin: 0 20px;
+}
+
+.buttonMute {
+  margin: 0 20px;
+  padding-top: 20px;
+}
+
+.buttonUnmute{
+  margin: 0 20px;
+  padding-top: 20px;
+}
+
+#myCanvas {
+  background: #fff;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+
+

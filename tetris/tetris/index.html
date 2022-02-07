@@ -1,0 +1,69 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css" class="rel">
+    <title>TETRIS!</title>
+  </head>
+  <body>
+
+    <div class="howToPlay">
+      <p>W - Rotate tetromino</p>
+      <p>A - Move tetromino one left</p>
+      <p>S - Move tetromino one down</p>
+      <p>D - Move tetromino one right</p>
+      <p>SPACE - Drop tetromino all the way down</p>
+      <p>C - Hold the current tetromino</p>
+    </div>
+
+    <canvas id="myCanvas" width="600" height="600" style="border: 1px solid black;">
+	    Sorry, but your browser does not support the HTML5 canvas tag.
+	  </canvas>
+
+    <div class="info">
+      <div class="level">
+        <h3>Level</h3>
+        <p id="level"> 1 </p>
+      </div>
+      <div class="lines">
+        <h3>Lines</h3>
+        <p id="lines"> 0 </p>
+      </div>
+      <div class="score">
+        <h3>Score</h3>
+        <p id="score"> 0 </p>
+      </div>
+
+      <div class = "buttonMute">
+        <button id = "muteButton">Mute</button>
+      </div>
+
+      <div class = "buttonUnmute">
+        <button id = "unmutebutton">Unmute</button>
+      </div>
+    </div>
+
+    <div id="output"></div>
+    <script src = "shapes.js"></script>
+    <script src="globals.js"></script>
+    <script src="util.js"></script>
+    <script src="keys.js"></script>
+
+    <script src="spatialManager.js"></script>
+    <script src="entityManager.js"></script>
+
+    <script src="Sprite.js"></script>
+
+    <script src="Entity.js"></script>
+    <script src="update.js"></script>
+    <script src="render.js"></script>
+
+    <script src="imagesPreload.js"></script>
+    <script src="main.js"></script>
+    <script src = "grid.js"></script>
+    <script src = "TetrisObject.js"></script>
+    <script src="TETRIS.js"></script>
+    <script src = "tetromino.js"></script>
+
+
+  </body>
+</html>
