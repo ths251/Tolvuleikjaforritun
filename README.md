@@ -1,2 +1,2 @@
 # Tölvuleikjaforritun
-Verkefni skrifuð með vanilla javascript fyrir áfangann tölvuleikjaforritun
+Nokkur verkefni skrifuð með vanilla javascript fyrir áfangann tölvuleikjaforritun
